@@ -1,0 +1,72 @@
+video{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.green::before{
+    content: "95% match ";
+    color: green;
+}
+.green{
+    font-size: 0.9rem;
+}
+.desc{
+    font-size: 0.9rem;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header2 p{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.header3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header3 p{
+    font-size: 0.9rem;
+    color: gray;
+}
+.epi:hover{
+    border-top: 5px solid red;
+    color: white;
+    padding: 5px;
+}
+.more:hover{
+    border-top: 5px solid red;
+    padding: 5px;
+    color: white;
+}
+.no{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
